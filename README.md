@@ -18,7 +18,7 @@ NLopt is compiled and installed with the [CMake][1] build system
     mkdir build
     cd build
     cmake ..
-    make
+    make -j{whatever number of CPU you prefer in compilation}
     sudo make install
 
 (To build the latest development sources from git, you will need [SWIG][2]
